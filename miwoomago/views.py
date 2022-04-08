@@ -8,5 +8,5 @@ class Main(APIView):
 
     def post(self, request):
         print("call post")
-        return render(request, "main.html")
+        return render(request, "miwoomago/main.html")
 
